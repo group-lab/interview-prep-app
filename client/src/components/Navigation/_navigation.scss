@@ -1,4 +1,20 @@
 .navigation {
+    background-color: $light-bg;
+    padding: 1rem;
 
-    
+    &-content{
+        color: black;
+
+
+        &-link {
+            display: inline;
+            padding-block: 20px;
+            padding-inline: 30px;
+            text-decoration: none;
+            color: white;
+            height: 100%;
+            transition: 0.3s ease color;
+            cursor: pointer;
+        }
+    }
 }
