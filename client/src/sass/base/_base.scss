@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+
+#root {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  background: $base-bg;
+}
+
+body {
+  font-family: $base-font-type;
+}

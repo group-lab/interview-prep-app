@@ -1,0 +1,12 @@
+// Base
+@import "./abstracts/variables";
+@import "./base/base";
+
+// Components
+@import "../components/Navigation/navigation";
+@import "../components/Footer/footer";
+
+// Pages
+@import "../pages/utils/sharedLayout";
+@import "../pages/Home/home";
+@import "../pages/Error/error";
