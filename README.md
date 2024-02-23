@@ -13,7 +13,7 @@ The Interview Prep App aims to provide a comprehensive solution for interview pr
 - [Dependencies](#dependencies)
 - [Project Structure](#project-structure)
 - [Collaborators](#collaborators)
-<!-- - [Tests](#tests) -->
+- [Contributions](#contributions)
 - [Questions](#questions)
 - [License](#license)
 
@@ -89,6 +89,54 @@ npm install bootstrap@5.3.2 react-bootstrap@2.10.1 react@18.2.0 react-dom@18.2.0
 - [omar12ahmed](https://github.com/omar12ahmed)
 - [rrana5106](https://github.com/rrana5106)
 - [yuzbamaria](https://github.com/yuzbamaria)
+
+## Contributions
+
+Contributions are welcome! Here are several ways you can contribute:
+
+- **[Report Issues](https://github.com/group-lab/interview-prep-app/issues)**: Submit bugs found or log feature requests.
+
+#### *Contributing Guidelines*
+
+<details closed>
+<summary>Click to expand</summary>
+
+1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
+   ```sh
+   git clone <your-forked-repo-url>
+   ```
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+   ```sh
+   git checkout -b new-feature-x
+   ```
+
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Add Changes to Staging Area**:
+   ```sh
+   git add -A 
+   ```
+6. **Commit Your Changes**: Commit with a clear and concise message describing your updates.
+   ```sh
+   git commit -m 'Implemented new feature x.'
+   ```
+7. **Push to GitHub**: Push the changes to your forked repository.
+   ```sh
+   git push origin new-feature-x
+   ```
+8. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
+
+  Once your PR is reviewed and approved, it will be merged into the main branch.
+
+9. **Switch Back to Main Branch and Pull Sync with Main**: If you wish to work on a new feature/change, switch back to the main branch and sync with the latest changes.
+  ```sh
+  git checkout main
+  git pull origin main
+  ```
+10. **Repeat the Process if Necessary**: Start from point 3 onwards.
+
+</details>
+
 
 <!-- 
 ## Tests
