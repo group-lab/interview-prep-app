@@ -6,32 +6,42 @@ import React from "react";
 const Navigation = () => {
   return (
     <div className="navigation">
-      <div className="navigation-content">
 
-        {/* logo */}
-        <div>
-          <span className="navigation-content-logo">
-            Code Quiz
-          </span>
+      <nav className="navigation-content">
+
+
+        <div className="navigation-content-logo">
+          Code Quiz
         </div>
 
-        <div>
 
-          <NavLink to="/" className="navigation-content-link">
-            Home
+        <div className="navigation-content-menu">
+          <NavLink to="/" className="navigation-content-menu">
+            Home 
           </NavLink>
 
-          <NavLink to="/" className="navigation-content-link">
-            Test!
+          <NavLink to="/Landing" className="navigation-content-menu">
+            Landing 
           </NavLink>
 
-          <NavLink to="/" className="navigation-content-link">
+          <NavLink to="/" className="navigation-content-menu">
+            Test
+          </NavLink>
+
+          <NavLink to="/" className="navigation-content-menu">
             Profile
           </NavLink>
 
+          <div className="navigation-close">
+            {/* <FontAwesomeIcon icon={faXmark} /> */}
+          </div>
         </div>
 
-      </div>
+        <div className="navigation-toggle">
+          {/* <FontAwesomeIcon icon={faBars} /> */}
+        </div>
+      </nav>
+
     </div>
   )
 }

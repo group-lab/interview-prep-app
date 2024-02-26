@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import {
   SharedLayout,
   Home,
+  Landing,
   Error,
 
 } from './pages';
@@ -16,6 +17,8 @@ function App() {
         <Route path="/" element={<SharedLayout />}>
           {/* <Route index element={<Home />} /> */}
           <Route path="*" element={<Error />} />
+          <Route path="/Landing" element={<Landing />} />
+
         </Route>
       </Routes>
     </BrowserRouter>
