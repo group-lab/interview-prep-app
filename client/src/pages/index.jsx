@@ -1,9 +1,11 @@
 import SharedLayout from './utils/SharedLayout';
-import Home from './Home/Home';
+import Dashboard from './Dashboard/Dashboard';
+import Landing from './Landing/Landing';
 import Error from './Error/Error';
 
 export {
     SharedLayout,
-    Home,
+    Dashboard,
+    Landing,
     Error,
 };
