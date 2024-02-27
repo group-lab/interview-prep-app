@@ -3,7 +3,10 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
-import { Profile } from '../../components';
+import { 
+  Profile, 
+  CardGraph,
+} from '../../components';
 
 const Dashboard = () => {
   return (
@@ -25,7 +28,11 @@ const Dashboard = () => {
           </Card>
         </Col>
         <Col md={7} lg={8}>
-          main
+          <h2>User Progress</h2>
+          <CardGraph 
+            title="Stats" 
+            
+          />
         </Col>
       </Row>
     </section>
