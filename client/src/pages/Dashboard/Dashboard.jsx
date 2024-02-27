@@ -27,11 +27,23 @@ const Dashboard = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={7} lg={8}>
-          <h2>User Progress</h2>
+        <Col md={7} lg={5}>          
           <CardGraph 
-            title="Stats" 
-            
+            labels={
+              [
+                'Total Questions', 
+                'Correct Answers', 
+                'Incorrect Answers', 
+                'Accuracy Rate', 
+                'Time Spent', 
+                'Avg. Time', 
+                'Quiz Completion %', 
+                'Recent Activity', 
+                'Best Score',
+                'Avg. Score'
+              ]
+            }
+            title="User Progress"             
           />
         </Col>
       </Row>
