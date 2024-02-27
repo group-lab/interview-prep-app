@@ -8,10 +8,10 @@ import { Profile } from '../../components';
 const Dashboard = () => {
   return (
     <section className="dashboard">
-      <Row>
-        <Col>
-          <Card className='dashboard-image'>
-            <Profile />
+      <Row className='justify-content-md-center'>
+        <Col md={5} lg={3}>
+          <Card className='dashboard-card'>
+            <Profile profileSize='dashboard-image' />
             <Card.Body>
               <Card.Title>Hello, user name</Card.Title>
               <ListGroup className="list-group-flush">
@@ -24,8 +24,8 @@ const Dashboard = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          2
+        <Col md={7} lg={8}>
+          main
         </Col>
       </Row>
     </section>
