@@ -10,8 +10,7 @@ const Dashboard = () => {
     <section className="dashboard">
       <Row>
         <Col>
-          <Card style={{ width: '18rem' }}>
-            {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+          <Card className='dashboard-image'>
             <Profile />
             <Card.Body>
               <Card.Title>Hello, user name</Card.Title>
@@ -21,8 +20,7 @@ const Dashboard = () => {
                 <ListGroup.Item>Profile/Settings</ListGroup.Item>
                 <ListGroup.Item>Feedback/Help</ListGroup.Item>
                 <ListGroup.Item>Logout</ListGroup.Item>
-              </ListGroup>
-            
+              </ListGroup>            
             </Card.Body>
           </Card>
         </Col>
