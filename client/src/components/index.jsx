@@ -1,11 +1,11 @@
 import Navigation from './Navigation/Navigation';
 import Footer from './Footer/Footer';
 import Profile from './Profile/Profile';
-import CardGraph from './CardGraph/CardGraph';
+import GraphProfile from './GraphProfile/GraphProfile';
 
 export {
     Navigation,
     Profile,
-    CardGraph,
+    GraphProfile,
     Footer,
 }

@@ -5,7 +5,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 import { 
   Profile, 
-  CardGraph,
+  GraphProfile,
 } from '../../components';
 
 const Dashboard = () => {
@@ -18,9 +18,11 @@ const Dashboard = () => {
             <Card.Body>
               <Card.Title>Hello, user name</Card.Title>
               <ListGroup className="list-group-flush">
+                <ListGroup.Item>My stats</ListGroup.Item>
+                {/* show when user has started any */}
                 <ListGroup.Item>Resume inteview</ListGroup.Item>
-                <ListGroup.Item>My own questions</ListGroup.Item>
-                <ListGroup.Item>Profile/Settings</ListGroup.Item>
+                <ListGroup.Item>My questions</ListGroup.Item>
+                <ListGroup.Item>Settings</ListGroup.Item>
                 <ListGroup.Item>Feedback/Help</ListGroup.Item>
                 <ListGroup.Item>Logout</ListGroup.Item>
               </ListGroup>            
@@ -28,23 +30,7 @@ const Dashboard = () => {
           </Card>
         </Col>
         <Col md={7} lg={5}>          
-          <CardGraph 
-            labels={
-              [
-                'Total Questions', 
-                'Correct Answers', 
-                'Incorrect Answers', 
-                'Accuracy Rate', 
-                'Time Spent', 
-                'Avg. Time', 
-                'Quiz Completion %', 
-                'Recent Activity', 
-                'Best Score',
-                'Avg. Score'
-              ]
-            }
-            title="User Progress"             
-          />
+          <GraphProfile />
         </Col>
       </Row>
     </section>
