@@ -5,10 +5,11 @@
 // Components
 @import "../components/Navigation/navigation";
 @import "../components/Footer/footer";
-@import "../components/GraphProfile/graphProfile";
+@import "../components/ProfileGraph/profileGraph";
+@import "../components/ProfileNav/profileNav";
 
 // Pages
 @import "../pages/utils/sharedLayout";
-@import "../pages/Dashboard/dashboard";
 @import "../pages//Landing/landing";
+@import "../pages/Dashboard/dashboard";
 @import "../pages/Error/error";

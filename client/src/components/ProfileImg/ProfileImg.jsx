@@ -1,14 +1,14 @@
 import profile from '../../assets/profile.png';
 import PropTypes from 'prop-types';
 
-const Profile = ({profileSize}) => {
+const ProfileImg = ({profileSize}) => {
   return (
     <img className={profileSize} src={profile} alt="placeholder profile" />
   )
 }
 
-Profile.propTypes = {
+ProfileImg.propTypes = {
   profileSize: PropTypes.string.isRequired,
 }
 
-export default Profile;
+export default ProfileImg;

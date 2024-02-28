@@ -1,11 +1,13 @@
 import Navigation from './Navigation/Navigation';
 import Footer from './Footer/Footer';
-import Profile from './Profile/Profile';
-import GraphProfile from './GraphProfile/GraphProfile';
+import ProfileImg from './ProfileImg/ProfileImg';
+import ProfileGraph from './ProfileGraph/ProfileGraph';
+import ProfileNav from './ProfileNav/ProfileNav';
 
 export {
     Navigation,
-    Profile,
-    GraphProfile,
+    ProfileImg,
+    ProfileGraph,
+    ProfileNav,
     Footer,
 }
