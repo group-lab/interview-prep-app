@@ -15,8 +15,7 @@ const Dashboard = () => {
         </Col>
         <Col md={7} lg={5}>          
           <ProfileGraph />
-        </Col>
-        
+        </Col>        
       </Row>
     </section>
   )
