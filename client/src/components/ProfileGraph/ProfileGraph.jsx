@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
 
-const GraphProfile = () => {
+const ProfileGraph = () => {
 
   ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -60,8 +60,7 @@ const GraphProfile = () => {
         labels:{
           boxWidth: 10,          
           padding: 9,
-          filter: ({index}, data)=>{         
-            console.log(data)         
+          filter: ({index}, data)=>{                          
             // show only labels that are have data        
             return data.datasets[0].data[index]            
           }
@@ -82,4 +81,4 @@ const GraphProfile = () => {
   )
 }
 
-export default GraphProfile;
+export default ProfileGraph;
