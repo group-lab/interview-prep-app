@@ -8,7 +8,6 @@ import {
   Settings,
   Help,
   Error,
-
 } from './pages';
 
 function App() {

@@ -2,24 +2,43 @@
     background-color: $light-primary;
     padding: 2rem;
 
-    &-close {
-        color: black
-    }
+    // &-close {
+    //     color: black
+    // }
 
 
     &-content {
-        color: black;
+        color: gray;
         display: flex;
+        // align-items: center;
         justify-content: space-between;
 
+        &-logo {
+            padding-inline: 20px;
+        }
+
         &-menu {
-            display: inline;
             padding-inline: 20px;
             text-decoration: none;
             color: white;
             height: 100%;
             transition: 0.3s ease color;
             cursor: pointer;
+            // margin-left: auto;
+        }
+
+        &-profile {
+            padding-inline: 20px;
+            text-decoration: none;
+            color: white;
+            height: 100%;
+            transition: 0.3s ease color;
+            cursor: pointer;
+            margin-left: auto;
+        }
+
+        &-mode {
+            color: pink;
         }
     }
 }

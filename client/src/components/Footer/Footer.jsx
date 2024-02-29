@@ -2,13 +2,13 @@
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer row">
       
-      <div className="">
+      <div className="footer-column col">
         Project created by
       </div>
 
-      <div className="">
+      <div className="footer-column col">
         Contact us
       </div>
 
