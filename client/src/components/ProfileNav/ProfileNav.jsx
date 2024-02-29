@@ -12,13 +12,9 @@ const ProfileNav = () => {
           <ListGroup className="list-group-flush">
             <ListGroup.Item>
               <Link to='/dashboard'>My stats</Link>                  
-            </ListGroup.Item>
-            {/* show when user has started any */}
+            </ListGroup.Item>           
             <ListGroup.Item>
-              <Link to='/dashboard/interview'>Resume inteview</Link>                  
-            </ListGroup.Item>
-            <ListGroup.Item>
-              <Link to='/dashboard/questions'>My questions</Link>                  
+              <Link to='/dashboard/favourites'>Favourites</Link>                  
             </ListGroup.Item>
             <ListGroup.Item>
               <Link to='/dashboard/settings'>Settings</Link>                   

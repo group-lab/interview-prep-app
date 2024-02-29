@@ -3,8 +3,8 @@ import {
   SharedLayout,
   Landing,
   Dashboard,
-  Interview,
-  Questions,
+  Favourites,
+  AllQuestions,
   Settings,
   Help,
   Error,
@@ -17,9 +17,9 @@ function App() {
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<Landing />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/dashboard/interview" element={<Interview />} />
-          <Route path="/dashboard/questions" element={<Questions />} />
+          <Route path="/dashboard" element={<Dashboard />} />         
+          <Route path="/dashboard/questions" element={<AllQuestions />} />
+          <Route path="/dashboard/favourites" element={<Favourites />} />
           <Route path="/dashboard/settings" element={<Settings />} />
           <Route path="/help" element={<Help />} />
           <Route path="*" element={<Error />} />

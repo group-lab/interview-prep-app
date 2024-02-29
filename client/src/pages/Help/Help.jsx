@@ -13,7 +13,7 @@ const Help = () => {
           <ProfileNav />
         </Col>
         <Col md={7} lg={5}>          
-          Help
+          Help form
         </Col>        
       </Row>
     </section>

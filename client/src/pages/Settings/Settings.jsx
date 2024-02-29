@@ -13,7 +13,7 @@ const Settings = () => {
           <ProfileNav />
         </Col>
         <Col md={7} lg={5}>          
-          Settings
+          User settings
         </Col>        
       </Row>
     </section>
