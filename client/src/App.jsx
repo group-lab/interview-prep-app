@@ -1,13 +1,14 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import {
   SharedLayout,
-  Home,
-  // Landing,
+  Landing,
+  Dashboard,
+  Interview,
+  Questions,
+  Settings,
+  Help,
   Error,
-
 } from './pages';
-
-// import {Navigation} from './components/Navigation/Navigation'
 
 function App() {
 
@@ -15,10 +16,13 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
-          {/* <Route index element={<Home />} /> */}
+          <Route index element={<Landing />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/dashboard/interview" element={<Interview />} />
+          <Route path="/dashboard/questions" element={<Questions />} />
+          <Route path="/dashboard/settings" element={<Settings />} />
+          <Route path="/help" element={<Help />} />
           <Route path="*" element={<Error />} />
-          {/* <Route path="/Landing" element={<Landing />} /> */}
-
         </Route>
       </Routes>
     </BrowserRouter>
