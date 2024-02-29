@@ -1,6 +1,11 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import { DropDown } from '../../components';
+
+const categoryData = ['Javascript', 'SQL', 'CSS'];
+const difficultyData = ['Easy', 'Hard', 'Advanced'];
+
 const Questions = () => {
   return (
     <section className="questions">
@@ -8,7 +13,8 @@ const Questions = () => {
         <Col md={9}>
          <h2>All Questions</h2>
          <div className='questions-filters'>
-          list        
+          <DropDown title="Category" list={categoryData} />      
+          <DropDown title="Difficulty" list={difficultyData} />                
          </div>
         </Col>
         <Col md={3}>          
