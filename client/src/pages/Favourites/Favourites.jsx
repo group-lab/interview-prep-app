@@ -7,7 +7,7 @@ import {
 
 const Favourites = () => {
   return (
-    <section className="settings">
+    <section className="favourites">
       <Row className='justify-content-md-center g-5'>
         <Col md={5} lg={2}>
           <ProfileNav />
