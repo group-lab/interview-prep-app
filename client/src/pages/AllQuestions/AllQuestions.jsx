@@ -6,7 +6,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import Table from 'react-bootstrap/Table';
 import { DropDown } from '../../components';
 
-// import data from '../../data/questions';
+import data from '../../data/questions';
 const categoryData = ['Javascript', 'SQL', 'CSS'];
 const difficultyData = ['Easy', 'Hard', 'Advanced'];
 
@@ -44,11 +44,12 @@ const Questions = () => {
               </tr>
             </thead>
             <tbody>
+              
               {/* <tr>                
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-              </tr>               */}
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr> */}
             </tbody>
           </Table>
          </div>
