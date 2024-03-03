@@ -1,4 +1,375 @@
 .landing {
+    display: flex;
+    height: 100vh;
+    overflow:hidden;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 
-  
+    .img{
+        height: 100vh;
+        margin: 0;
+        //  width: 300px; 
+        // border: 3px solid black; 
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 15px;
+        background-color: lightblue;
+        border-radius: 5%;
+    }
+    
+    #img-btn-div, #boxes-div {
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+    }
+    
+    #img-btn-div{
+        // background-color: blueviolet; 
+        width: 50%;
+    }
+    
+    #btn-div{
+        display: flex;
+        flex-direction: column;
+        position: relative;  
+        top: 60%;
+        left: -10%;
+        margin: 0;
+        height: 200px;
+    }
+    
+    .btn{
+        margin: 10px;
+        // background-color: #ffa600; 
+        transition-duration: 0.4s;
+        height: 40px;
+        width: 250px;
+        border-style: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.2rem;
+    }
+    
+    .btn:hover{
+        margin: 10px;
+        background-color: rgb(167, 126, 23);
+        transform: scale(1.05);
+        transition-duration: 0.4s;
+    }
+    
+    #create-an-account-btn {
+        background-color: #ffa600;
+    }
+    
+    #create-an-account-btn:hover {
+        color: white;
+    }
+    
+    #login-btn{
+        background-color: white;
+        border: 2px solid #ffa600;
+        color: #ffa600;
+    }
+    
+    #login-btn:hover {
+        color: #ffa600;
+    }
+    
+    
+    #boxes-div {
+        // background-color: aquamarine; 
+        width: 50%;
+    }
+    
+    #box-1, #box-2, #box-3 {
+        border: 3px solid white;
+    }
+    
+    #boxes-div p {
+        position: absolute;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    #box-quote {
+        margin-right: 10px; 
+    }
+    
+    #box-quote p {
+        font-size: 1.5rem;
+        padding: 30px 50px 30px 50px;
+    
+        background:
+            radial-gradient(circle at 100% 50%, transparent 20%, #ffa60056 21%,
+                #ffa60056 34%, transparent 35%, transparent),
+            radial-gradient(circle at 0% 50%, transparent 20%, #ffa60056 21%, #ffa60056 34%, transparent 35%, transparent) 0 -50px;
+        background-color: #ffffff;
+        background-size: 75px 100px;
+
+    }
+    
+    #box-1 p {
+        width: 100%;
+        height: 29%;
+        top: 63%;
+        background: rgb(255,255,255);
+        background: radial-gradient(circle, rgba(255,255,255,1) 23%, rgba(255,255,255,0) 75%, rgba(255,255,255,0) 100%);
+    }
+    
+    #box-2 p {
+        top: 30%;
+        width: 100%;
+    }
+    
+    #box-3 p {
+        top: 10%;
+        width: 100%;
+    }
+    
+    #box-1{
+        position: relative;
+        top: 3%;
+        right: 5%;
+        height: 17rem;
+        width: 13rem;
+        // height: 304px;
+        // width: 270px; 
+        // background-color: lightgrey; 
+        border-radius: 1rem;
+        background-image: url(/images/pic8.jpeg);
+        background-size: 200px 300px;
+        background-repeat: no-repeat;       
+    }
+    
+    #box-2{
+        position: relative;
+        top: 30%;
+        right: 7%;
+        height: 17rem;
+        width: 13rem;
+        background-color: gray;
+        border-radius: 1rem;
+    }
+    
+    #box-3{
+        position: relative;
+        top: 55%;
+        right: 9%;
+        height: 17rem;
+        width: 13rem;
+        background-color: lightgrey;
+        border-radius: 1rem;
+    }    
 }
+
+// This is the CSS:
+
+
+/*
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.landing{
+    display: flex;
+    height: 100vh;
+    overflow:hidden;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.img{
+    height: 100vh;
+    margin: 0;
+    //  width: 300px; 
+    // border: 3px solid black; 
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 15px;
+    background-color: lightblue;
+    border-radius: 5%;
+}
+
+#img-btn-div, #boxes-div {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+#img-btn-div{
+    // background-color: blueviolet; 
+    width: 50%;
+}
+
+#btn-div{
+    display: flex;
+    flex-direction: column;
+    position: relative;  
+    top: 60%;
+    left: -10%;
+    margin: 0;
+    height: 200px;
+}
+
+.btn{
+    margin: 10px;
+    // background-color: #ffa600; 
+    transition-duration: 0.4s;
+    height: 40px;
+    width: 250px;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.btn:hover{
+    margin: 10px;
+    background-color: rgb(167, 126, 23);
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
+#create-an-account-btn {
+    background-color: #ffa600;
+}
+
+#create-an-account-btn:hover {
+    color: white;
+}
+
+#login-btn{
+    background-color: white;
+    border: 2px solid #ffa600;
+}
+
+#login-btn:hover {
+    color: #ffa600;
+}
+
+
+#boxes-div {
+    // background-color: aquamarine; 
+    width: 50%;
+}
+
+#box-1, #box-2, #box-3 {
+    border: 3px solid white;
+}
+
+#boxes-div p {
+    position: absolute;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#box-quote {
+    // margin-right: 10px; 
+}
+
+#box-quote p {
+    font-size: 1.5rem;
+    padding: 30px 50px 30px 50px;
+
+    background:
+        radial-gradient(circle at 100% 50%, transparent 20%, #00af8972 21%,
+            #00af8972 34%, transparent 35%, transparent),
+        radial-gradient(circle at 0% 50%, transparent 20%, #00af8972 21%, #00af8972 34%, transparent 35%, transparent) 0 -50px;
+    background-color: #ffffff;
+    background-size: 75px 100px;
+
+    // background:
+    //    radial-gradient(circle, transparent 20%, #ffffff 20%,
+    //    #ffffff 80%, transparent 80%, transparent),
+    //    radial-gradient(circle, transparent 20%, #ffffff 20%,
+    //    #ffffff 80%, transparent 80%, transparent) 50px 50px,
+    //    linear-gradient(#c37ea7a4 8px, transparent 8px) 0 -4px,
+    //    linear-gradient(90deg, #c37ea7a4 8px, transparent 8px) -4px 0;
+    // background-color: #ffffff;
+    // background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px; 
+
+}
+
+#box-1 p {
+    width: 100%;
+    height: 29%;
+    top: 63%;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 23%, rgba(255,255,255,0) 75%, rgba(255,255,255,0) 100%);
+}
+
+#box-2 p {
+    top: 30%;
+    width: 100%;
+}
+
+#box-3 p {
+    top: 10%;
+    width: 100%;
+}
+
+#box-1{
+    position: relative;
+    top: 3%;
+    right: 5%;
+    height: 17rem;
+    width: 13rem;
+    // height: 304px;
+    // width: 270px; 
+    // background-color: lightgrey; 
+    border-radius: 1rem;
+    background-image: url(/images/pic8.jpeg);
+    background-size: 200px 300px;
+    background-repeat: no-repeat;
+   
+}
+
+// #box-1{
+//    position: relative;
+//    top: 3%;
+//    left: -15%;
+//    height: 30vh;
+//    width: 10vw;
+//    background-color: lightgrey;
+//    border-radius: 1rem;
+//} 
+
+#box-2{
+    position: relative;
+    top: 30%;
+    right: 7%;
+    height: 17rem;
+    width: 13rem;
+    background-color: gray;
+    border-radius: 1rem;
+}
+
+#box-3{
+    position: relative;
+    top: 55%;
+    right: 9%;
+    height: 17rem;
+    width: 13rem;
+    background-color: lightgrey;
+    border-radius: 1rem;
+}
+*/
