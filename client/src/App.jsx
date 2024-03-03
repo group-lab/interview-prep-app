@@ -20,7 +20,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
-          <Route index element={<Landing />} />
+          {/* <Route index element={<Landing />} /> */}
+          <Route path="/landing" element={<Landing />} /> {/*I have added Landing like this so i can work from in on the Landing page of the Nav */}
           <Route path="/questions" element={<AllQuestions />} />
           <Route path="/topics" element={<Topics />} />
           <Route path="/contribute" element={<Contribute />} />
