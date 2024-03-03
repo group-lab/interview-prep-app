@@ -6,12 +6,16 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import Table from 'react-bootstrap/Table';
 import { DropDown } from '../../components';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons'
+
 
 import data from '../../data/questions';
 const categoryData = ['Javascript', 'SQL', 'CSS'];
 const difficultyData = ['Easy', 'Hard', 'Advanced'];
 
 const Questions = () => {
+
   return (
     <section className="questions">
       <Row className='justify-content-md-center g-5'>
@@ -49,11 +53,11 @@ const Questions = () => {
                   return (
                     <tr key={id}>
                       <td>
-                        {/* <Link to={`/question/${id}`}> */}
-                        <Link 
+                        <Link to={`/question/${id}`}>
+                        {/* <Link 
                           to=""
                           className='questions-list-links'
-                        >
+                        > */}
                           {title}
                         </Link>
                       </td>
@@ -74,6 +78,9 @@ const Questions = () => {
                         <p className='questions-list-level'>
                           {level}
                         </p>
+                      </td>
+                      <td>
+                        <FontAwesomeIcon icon={faStar} />                       
                       </td>
                     </tr>
                   )

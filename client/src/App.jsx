@@ -3,6 +3,7 @@ import {
   SharedLayout,
   Landing,
   AllQuestions,
+  Question,
   Topics,
   Contribute,
   Login,
@@ -23,6 +24,7 @@ function App() {
           {/* <Route index element={<Landing />} /> */}
           <Route path="/landing" element={<Landing />} /> {/*I have added Landing like this so i can work from in on the Landing page of the Nav */}
           <Route path="/questions" element={<AllQuestions />} />
+          <Route path="/question/:id" element={<Question />} />
           <Route path="/topics" element={<Topics />} />
           <Route path="/contribute" element={<Contribute />} />
           <Route path="/login" element={<Login />} />
