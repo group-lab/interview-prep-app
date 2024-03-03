@@ -1,6 +1,7 @@
 import SharedLayout from './utils/SharedLayout';
 import Landing from './Landing/Landing';
 import AllQuestions from './AllQuestions/AllQuestions';
+import Question from './Question/Question';
 import Topics from './Topics/Topics';
 import Contribute from './Contribute/Contribute';
 import Login from './Login/Login';
@@ -15,6 +16,7 @@ export {
     SharedLayout,
     Landing,
     AllQuestions,
+    Question,
     Topics,
     Contribute,
     Login,

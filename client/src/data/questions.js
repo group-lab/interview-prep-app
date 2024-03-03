@@ -4,7 +4,12 @@ const questions = {
       "id": 'e1',
       "title" : "Declared a variables",
       "question": "How do you declare a variable in JavaScript?",
-      "answer": "Variables are declared using keywords like var, let, or const, followed by the variable name.",
+      "answer": [
+        "Variables are declared using keywords like var, let, or const, followed by the variable name.", 
+        "Variables are declared using keywords like int, string, or float, followed by the variable name.", 
+        "Variables are automatically created when you use them for the first time.", 
+        "Variables are declared using keywords like declare, create, or define, followed by the variable name."
+      ],
       "hint": "Consider the keywords used for variable declaration in JavaScript.",
       "tags": ["Javascript", "Fundamentals"],
       "level": "Easy"
@@ -14,7 +19,12 @@ const questions = {
       "id": 'e2',
       "title" : "Alert() function",
       "question": "What does the alert() function do?",
-      "answer": "The alert() function is used to display a pop-up dialog box with a specified message.",
+      "answer": [
+        "The alert() function is used to display a pop-up dialog box with a specified message.",
+        "The alert() function closes the current browser tab.",
+        "The alert() function triggers a server request.",
+        "The alert() function is used to define a new variable",
+      ],
       "hint": "Think about how you can display a simple message to the user.",
       "tags": ["Javascript", "Fundamentals"],
       "level": "Easy"
@@ -23,7 +33,12 @@ const questions = {
       "id": 'e3',
       "title" : "Write a comment",
       "question": "How do you write a comment in JavaScript?",
-      "answer": "Single-line comments use //, and multi-line comments use /* */.",
+      "answer": [
+        "Single-line comments use //, and multi-line comments use /* */.",
+        "Comments are not allowed in JavaScript.",
+        "Single-line comments use --, and multi-line comments use { }.",
+        "Single-line comments use #, and multi-line comments use <!-- -->.",
+      ],
       "hint": "Consider the syntax for adding comments to your code.",
       "tags": ["Javascript", "Fundamentals"],
       "level": "Easy"
@@ -32,7 +47,12 @@ const questions = {
       "id": "e4",
       "title" : "Equall and strict equality",
       "question": "Explain the difference between == and ===.",
-      "answer": " == checks for equality with type coercion, while === checks for strict equality in both value and type.",
+      "answer": [
+        "== checks for equality with type coercion, while === checks for strict equality in both value and type.",
+        "== and === are used interchangeably with no difference.",
+        "== and === both check for strict equality.",
+        "== checks for strict equality, while === checks for equality with type coercion.",
+      ],
       "hint": "Think about the importance of considering both value and type in comparisons.",
       "tags": ["Javascript", "Fundamentals"],
       "level": "Easy"
@@ -41,7 +61,12 @@ const questions = {
       "id": "e5",
       "title" : "Basic for loop",
       "question": "Write a basic for loop in JavaScript.",
-      "answer": "Use the for keyword followed by loop initialization, condition, and increment/decrement expressions.",
+      "answer": [
+        "Use the for keyword followed by loop initialization, condition, and increment/decrement expressions.",
+        "Use the while keyword followed by loop initialization, condition, and increment/decrement expressions.",
+        "Use the loop keyword followed by loop initialization, condition, and increment/decrement expressions.",
+        "Use the iterate keyword followed by loop initialization, condition, and increment/decrement expressions.",
+      ],
       "hint": "Consider the syntax for creating a loop that iterates over a range of values.",
       "tags": ["Javascript", "Fundamentals"],
       "level": "Easy"
@@ -50,7 +75,12 @@ const questions = {
       "id": "e6",
       "title" : "Typeof operator",
       "question": "What does the typeof operator do?",
-      "answer": "typeof is used to determine the data type of a variable or expression.",
+      "answer": [
+        "typeof is used to determine the data type of a variable or expression.",
+        "typeof is used to compare the types of two variables.",
+        "typeof is used to declare a new variable.",
+        "typeof is used to create a new data type in JavaScript.",
+      ],
       "hint": "Think about how you can check the type of a value in JavaScript.",
       "tags": ["Javascript", "Fundamentals"],
       "level": "Easy"
@@ -59,7 +89,12 @@ const questions = {
       "id": "e7",
       "title" : "An array in JavaScript",
       "question": "Define an array in JavaScript.",
-      "answer": "An array is a data structure that stores a collection of elements, each identified by an index.",
+      "answer": [
+        "An array is a data structure that stores a collection of elements, each identified by an index.",
+        "An array is a single variable that can store multiple values.",
+        "An array is a function that performs operations on a set of values.",
+        "An array is a loop that iterates over a range of values.",
+      ],
       "hint": "Think about a data structure that allows you to store multiple elements.",
       "tags": ["Javascript", "Fundamentals"],
       "level": "Easy"
@@ -68,7 +103,12 @@ const questions = {
       "id": "e8",
       "title" : "A function in JavaScript",
       "question": "How do you write a function in JavaScript?",
-      "answer": "Use the function keyword followed by the function name, parameters, and the function body.",
+      "answer": [
+        "Use the function keyword followed by the function name, parameters, and the function body.",
+        "Use the define keyword followed by the function name, parameters, and the function body.",
+        "Use the create keyword followed by the function name, parameters, and the function body.",
+        "Use the func keyword followed by the function name, parameters, and the function body.",
+      ],
       "hint": "Consider the syntax for creating a reusable block of code in JavaScript.",
       "tags": ["Javascript", "Fundamentals"],
       "level": "Easy"
