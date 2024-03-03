@@ -74,8 +74,19 @@ body{
     font-size: 1.2rem;
 }
 
+.btn:hover{
+    margin: 10px;
+    background-color: rgb(167, 126, 23);
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
 #create-an-account-btn {
     background-color: goldenrod;
+}
+
+#create-an-account-btn:hover {
+    color: white;
 }
 
 #login-btn{
@@ -83,13 +94,8 @@ body{
     border: 2px solid goldenrod;
 }
 
-
-.btn:hover{
-    margin: 10px;
-    background-color: rgb(167, 126, 23);
-    transform: scale(1.05);
-    transition-duration: 0.4s;
-    color: white;
+#login-btn:hover {
+    color: goldenrod;
 }
 
 

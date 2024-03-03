@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import {
   SharedLayout,
-  Landing,
   Home,
   Error,
 
@@ -15,7 +14,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
-          {/* <Route path="/Landing" element={<Landing />} /> */}
           {/* <Route index element={<Home />} /> */}
           <Route path="*" element={<Error />} />
         </Route>
