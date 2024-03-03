@@ -2,8 +2,16 @@
 
 const Footer = () => {
   return (
-    <div className="footer">
-      Footer
+    <div className="footer row">
+      
+      <div className="footer-column col">
+        Project created by
+      </div>
+
+      <div className="footer-column col">
+        Contact us
+      </div>
+
     </div>
   )
 }

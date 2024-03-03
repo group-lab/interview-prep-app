@@ -1,4 +1,15 @@
 .footer {
-    margin: 0;
-    
+    // background-color: $light-bg;
+    padding: 2rem;
+
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    display: flex;
+    width: 100%;
+
+    &-column {
+        color: red;
+    }
 }

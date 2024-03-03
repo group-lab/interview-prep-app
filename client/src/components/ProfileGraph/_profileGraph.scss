@@ -1,0 +1,12 @@
+.card-graph {
+  max-width: 450px;
+  border: 0;
+
+  &-title {
+    padding: 10px 20px;
+  }
+
+  canvas {
+    max-height: 250px !important;  
+  }
+}

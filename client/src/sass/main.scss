@@ -5,9 +5,20 @@
 // Components
 @import "../components/Navigation/navigation";
 @import "../components/Footer/footer";
+@import "../components/ProfileGraph/profileGraph";
+@import "../components/ProfileNav/profileNav";
+@import "../components/DropDown/dropdown";
 
 // Pages
 @import "../pages/utils/sharedLayout";
-@import "../pages/Landing/landing";
-@import "../pages/Home/home";
+@import "../pages//Landing/landing";
+@import "../pages/AllQuestions/allQuestions";
+@import "../pages/Topics/topics";
+@import "../pages/Contribute/contribute";
+@import "../pages/Dashboard/dashboard";
+@import "../pages/Favourites/favourites";
+@import "../pages/Settings/settings";
+@import "../pages/Help/help";
+@import "../pages/Login/login";
+@import "../pages/Signup/signup";
 @import "../pages/Error/error";

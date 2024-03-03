@@ -1,0 +1,19 @@
+.questions {
+
+  &-filters {
+    display: flex;
+    gap: 15px;
+  }
+
+  &-list-btn:first-of-type {
+    margin-right: 10px;
+  }
+
+  &-list-level {
+    display: inline-block;
+    background: grey;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+}

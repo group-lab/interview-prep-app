@@ -2,4 +2,20 @@
 $base-font-type: 'Titillium Web', sans-serif;
 $base-bg: #ffffff;
 
-$light-bg: #d9d9d9
+$light-bg: #d9d9d9;
+$light-primary: #004080;
+
+$themes: (
+    light: (text: #333333,
+        background: #f5f9fa,
+        primary: #004080,
+        secondary: #6FA8DC,
+        accent: #FFA500,
+    ),
+    dark: (text: #cccccc,
+        background: #05090a,
+        primary: #80bfff,
+        secondary: #235b90,
+        accent: #ffa600,
+    ),
+);

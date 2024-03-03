@@ -1,12 +1,18 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import {
   SharedLayout,
-  Home,
+  Landing,
+  AllQuestions,
+  Topics,
+  Contribute,
+  Login,
+  Signup,
+  Dashboard,
+  Favourites,
+  Settings,
+  Help,
   Error,
-
 } from './pages';
-
-// import {Navigation} from './components/Navigation/Navigation'
 
 function App() {
 
@@ -14,7 +20,16 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
-          {/* <Route index element={<Home />} /> */}
+          <Route index element={<Landing />} />
+          <Route path="/questions" element={<AllQuestions />} />
+          <Route path="/topics" element={<Topics />} />
+          <Route path="/contribute" element={<Contribute />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/dashboard" element={<Dashboard />} />         
+          <Route path="/dashboard/favourites" element={<Favourites />} />
+          <Route path="/dashboard/settings" element={<Settings />} />
+          <Route path="/help" element={<Help />} />
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
