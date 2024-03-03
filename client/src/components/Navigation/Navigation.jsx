@@ -25,7 +25,7 @@ const Navigation = () => {
             Home
           </NavLink>
 
-          <NavLink to="/" className="navigation-content-menu">
+          <NavLink to="/landing" className="navigation-content-menu">
             Landing
           </NavLink>
 
