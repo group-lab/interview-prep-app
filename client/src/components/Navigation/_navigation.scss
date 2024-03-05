@@ -1,11 +1,15 @@
 .navigation {
     background-color: $light-primary;
     padding: 2rem;
+    display: inline-flex;
 
     // &-close {
     //     color: black
     // }
 
+    &-toggle {
+        border: none;
+    }
 
     &-content {
         color: gray;
@@ -35,6 +39,7 @@
             transition: 0.3s ease color;
             cursor: pointer;
             margin-left: auto;
+            align-items: end;
         }
 
         &-mode {
