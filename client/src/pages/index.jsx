@@ -7,6 +7,7 @@ import Contribute from './Contribute/Contribute';
 import Login from './Login/Login';
 import Signup from './Signup/Signup';
 import Dashboard from './Dashboard/Dashboard';
+import About from './About/About';
 import Favourites from './Favourites/Favourites';
 import Error from './Error/Error';
 import Settings from './Settings/Settings';
@@ -22,6 +23,7 @@ export {
     Login,
     Signup,
     Dashboard,
+    About,
     Favourites,
     Settings,
     Help,
