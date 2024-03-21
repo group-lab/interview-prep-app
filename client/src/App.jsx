@@ -9,6 +9,7 @@ import {
   Login,
   Signup,
   Dashboard,
+  About,
   Favourites,
   Settings,
   Help,
@@ -29,7 +30,8 @@ function App() {
           <Route path="/contribute" element={<Contribute />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
-          <Route path="/dashboard" element={<Dashboard />} />         
+          <Route path="/dashboard" element={<Dashboard />} />     
+          <Route path="/about" element={<About />} />     
           <Route path="/dashboard/favourites" element={<Favourites />} />
           <Route path="/dashboard/settings" element={<Settings />} />
           <Route path="/help" element={<Help />} />
