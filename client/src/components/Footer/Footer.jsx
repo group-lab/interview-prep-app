@@ -1,18 +1,17 @@
-
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div className="footer row">
+    <footer className="footer">
       
-      <div className="footer-column col">
-        Project created by
-      </div>
+      <p>© Interview Prep  / All rights reserved</p>
 
-      <div className="footer-column col">
-        Contact us
-      </div>
+      <div className="footer-contact">
+        <Link className='contact-about' to='/about' >About</Link>
+        <Link className='contact-form' to='/contact' >Contact</Link>
+      </div>    
 
-    </div>
+    </footer>
   )
 }
 
