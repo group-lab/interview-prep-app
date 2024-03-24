@@ -1,4 +1,4 @@
-import profile from '../../assets/profile.png';
+import profile from '../../assets/images/profile.png';
 import PropTypes from 'prop-types';
 
 const ProfileImg = ({profileSize}) => {

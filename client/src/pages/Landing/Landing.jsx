@@ -1,12 +1,91 @@
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import pic8 from "/images/pic8.jpeg";
+import landingPicLeft from "../../assets/images/landing-page-left.jpeg";
+import landingPicPrep from "../../assets/images/landingPic2.jpeg";
+
+// const prepImg = {
+//   backgroundImage: `url(${landingPicPrep})`,
+//   backgroundSize: 'cover',
+//   backgroundPosition: 'center', 
+// }
 
 const Landing = () => {
     return (
-      <div className="landing">
+      <section className="landing">
+        <Row className='d-flex'>
 
-        <div id='img-btn-div'>
+          <Col md={6}>
+            <img className='landing-pic1' src={landingPicLeft} alt="landing page pic1" />
+          </Col>
+          <Col md={6} className='landing-rightSide'>
+            <Row>
+              <Col>
+                <Card className='card landing-card'>  
+                  <Card.Header>Prep</Card.Header>
+                  <Card.Img className='img' src={landingPicPrep}></Card.Img>
+                </Card> 
+              </Col>
+              <Col>
+                <Card className='card landing-card'>  
+                  <Card.Header>Prep</Card.Header>
+                  <Card.Img className='img' src={landingPicPrep}></Card.Img>
+                </Card> 
+              </Col>
+              <Col>
+                <Card className='card landing-card'>  
+                  <Card.Header>Prep</Card.Header>
+                  <Card.Img className='img' src={landingPicPrep}></Card.Img>
+                </Card> 
+              </Col>
+            </Row>
+
+            <Row>
+              <Col>
+                {/* <img src={landingPicPrep} alt="" style={{height: "auto"}}/>                 */}
+              </Col>
+            </Row>
+
+         
+            {/* <Row className='landing-equal-height'>
+              <Col>
+                <Card className='card landing-card'>  
+                  <Card.Header>Prep</Card.Header>
+                  <Card.Img className='img' src={landingPicPrep}></Card.Img>
+                </Card>   
+              </Col>           
+            </Row>          
+
+            <Row className='landing-equal-height'>
+              <Col  className='d-flex justify-content-center'>
+                <Card className='card landing-card landing-overlap1'>
+                  <Card.Header>Set</Card.Header>
+                  <Card.Img src={landingPicPrep}></Card.Img>
+                </Card>                   
+              </Col>
+            </Row>  
+
+            <Row className='landing-equal-height'>
+              <Col  className='d-flex justify-content-end'>
+                <Card className='card landing-card landing-overlap2'>
+                  <Card.Header>Interview!</Card.Header>
+                  <Card.Img src={landingPicPrep}></Card.Img>                               
+                </Card>                                   
+              </Col>             
+            </Row>     */}
+                  
+          </Col>
+        </Row>
+
+        {/* <Row>
+          <Col>
+          s
+          </Col>
+        </Row> */}
+
+
+        {/* <div id='img-btn-div'>
           <img className='img' src='/images/pic1.jpg' alt="people interviewing"></img>
           <div id='btn-div'>
             <Button className='btn' id='create-an-account-btn' variant="primary">Create an account</Button>
@@ -32,7 +111,7 @@ const Landing = () => {
           <p>Interview!</p>
           </div>
 
-        </div>
+        </div> */}
 
         {/* <Card className='card' style={{ width: '18rem' }}>
         <Card.Img variant="top" src="./images/pic1.jpg" />
@@ -45,7 +124,7 @@ const Landing = () => {
         </Card.Body>
         </Card> */}
 
-      </div>
+      </section>
     )
   }
   
