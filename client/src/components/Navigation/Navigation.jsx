@@ -20,7 +20,7 @@ const Navigation = () => {
         </Nav>
         <Nav className="navigation-content-profile">
           <NavLink className="navigation-content-profile" to="/login">Log in</NavLink>
-          <NavLink className="navigation-content-profile" to="/signup">Log out</NavLink>
+          <NavLink className="navigation-content-profile" to="/signup">Sign up</NavLink>
         </Nav>
 
         <div
