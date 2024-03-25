@@ -13,7 +13,7 @@ const Landing = () => {
           <Col md={4} className='mb-4'>
             <Card className='card landing-card'>              
               <Card.Img className='img' src={landingPrepPic}></Card.Img>
-              <Button className='landing-btn'>Interview Questions Challenge</Button>
+              <Button className='landing-btn'>Questions Challenge</Button>
             </Card> 
           </Col>
           <Col md={4} className='mb-4'>
