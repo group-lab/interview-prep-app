@@ -1,9 +1,9 @@
 
 const Login = () => {
   return (
-    <div className="login">
+    <section className="login">
       Login
-    </div>
+    </section>
   )
 }
 
