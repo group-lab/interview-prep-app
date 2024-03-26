@@ -3,23 +3,24 @@
 @import "./base/base";
 
 // Components
-@import "../components/Navigation/navigation";
+@import "../components/DropDown/dropdown";
 @import "../components/Footer/footer";
+@import "../components/Navigation/navigation";
 @import "../components/ProfileGraph/profileGraph";
 @import "../components/ProfileNav/profileNav";
-@import "../components/DropDown/dropdown";
 
 // Pages
-@import "../pages/utils/sharedLayout";
-@import "../pages//Landing/landing";
-@import "../pages/AllQuestions/allQuestions";
-@import "../pages/Question/question";
-@import "../pages/Topics/topics";
-@import "../pages/Contribute/contribute";
+@import "../pages/SharedLayout/sharedLayout";
+@import "../pages/About/about";
+@import "../pages/ContributeQuestion/contributeQuestion";
 @import "../pages/Dashboard/dashboard";
-@import "../pages/Favourites/favourites";
-@import "../pages/Settings/settings";
-@import "../pages/Help/help";
-@import "../pages/Login/login";
-@import "../pages/Signup/signup";
 @import "../pages/Error/error";
+@import "../pages/Favourites/favourites";
+@import "../pages/Help/help";
+@import "../pages/IntervewQuestions/intervewQuestions";
+@import "../pages/Landing/landing";
+@import "../pages/Login/login";
+@import "../pages/Question/question";
+@import "../pages/Settings/settings";
+@import "../pages/Signup/signup";
+@import "../pages/Topics/topics";

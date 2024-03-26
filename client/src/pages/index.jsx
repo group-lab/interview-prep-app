@@ -1,31 +1,31 @@
-import SharedLayout from './utils/SharedLayout';
-import Landing from './Landing/Landing';
-import AllQuestions from './AllQuestions/AllQuestions';
-import Question from './Question/Question';
-import Topics from './Topics/Topics';
-import Contribute from './Contribute/Contribute';
-import Login from './Login/Login';
-import Signup from './Signup/Signup';
-import Dashboard from './Dashboard/Dashboard';
+import SharedLayout from './SharedLayout/SharedLayout';
 import About from './About/About';
-import Favourites from './Favourites/Favourites';
+import ContributeQuestion from './ContributeQuestion/ContributeQuestion';
+import Dashboard from './Dashboard/Dashboard';
 import Error from './Error/Error';
-import Settings from './Settings/Settings';
+import Favourites from './Favourites/Favourites';
 import Help from './Help/Help';
+import IntervewQuestions from './IntervewQuestions/IntervewQuestions';
+import Landing from './Landing/Landing';
+import Login from './Login/Login';
+import Question from './Question/Question';
+import Settings from './Settings/Settings';
+import Signup from './Signup/Signup';
+import Topics from './Topics/Topics';
 
 export {
     SharedLayout,
-    Landing,
-    AllQuestions,
-    Question,
-    Topics,
-    Contribute,
-    Login,
-    Signup,
-    Dashboard,
     About,
-    Favourites,
-    Settings,
-    Help,
+    ContributeQuestion,
+    Dashboard,
     Error,
+    Favourites,
+    Help,
+    IntervewQuestions,
+    Landing,
+    Login,
+    Question,
+    Settings,
+    Signup,
+    Topics,
 };

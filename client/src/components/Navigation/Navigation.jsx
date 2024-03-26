@@ -22,14 +22,6 @@ const Navigation = () => {
           <NavLink className="navigation-content-profile" to="/login">Log in</NavLink>
           <NavLink className="navigation-content-profile" to="/signup">Sign up</NavLink>
         </Nav>
-
-        <div
-          aria-label="Toggle Dark Mode"
-          className="navigation-content-mode"
-        // onClick={toggleTheme}
-        >
-          <FontAwesomeIcon icon={faCircleHalfStroke} />
-        </div>
       </Navbar.Collapse>
     </Navbar>
   );
